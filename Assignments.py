@@ -68,3 +68,7 @@ for i in range(1,a):
     for j in range(1,i+1):
         print(j)
     print()
+# 3
+a=int(input())
+for i in range(a):
+    print("222 "*i)
