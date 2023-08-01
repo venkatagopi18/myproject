@@ -26,7 +26,7 @@ print(a[int(l/2):])
 
 # pass or fail
 a=int(input())
-if a>35:
+if a>=35:
     print("venkat is pass")
 else:
     print("venkat is fail")
