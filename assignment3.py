@@ -67,7 +67,3 @@ if sorted(a)==sorted(b):
     print("the strings are anagrams")
 else:
     print("the strings are not anagrams")
-
-# sort characters
-a=input()
-print(sorted(a))
