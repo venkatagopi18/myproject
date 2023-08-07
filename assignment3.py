@@ -7,7 +7,7 @@ print(str.replace("a"," "))
 
 a=input()
 l=len(a)
-if a[:int(l/2)]==a[int(l/2):]:
+if a==(a[::-1]):
     print("a is palindrome")
 else:
     print("a is not a palindrome")
