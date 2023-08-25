@@ -7,6 +7,7 @@ a.update({2:30})
 print(a)
 
 
+
 # checking a key in the dictionary or not
 
 a={"val1":"10","val2":"20"}
