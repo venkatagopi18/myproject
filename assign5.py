@@ -49,15 +49,6 @@ print(dic)
 dic={'a':10,'b':20,'c':30}
 print(sum(dic.values()))
 
-
-# combining dictionaries by adding values for common keys
-
-d1={'a':100,'b':200,'c':300}
-d2={'a':300,'b':200,'d':400}
-
-
-
-
 # accecing keys in dictionary
 
 dic={"physics":75,"maths":80,"chemistry":70}
