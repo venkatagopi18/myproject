@@ -41,7 +41,7 @@ pangram_r_not(k)
 
 #squares of the 1 to 10
 
-def squares_of_lst(k):
+def squares_of_lst(k,l):
     new_lst=[]
     for i in range(k,l+1):
         new_lst.append(i**2)
@@ -49,7 +49,7 @@ def squares_of_lst(k):
 
 k=int(input())
 l=int(input())
-squares_of_lst(k)
+squares_of_lst(k,l)
 
 
 # sum all the elements in list
