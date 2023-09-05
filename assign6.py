@@ -45,7 +45,7 @@ def squares_of_lst(k,l):
     new_lst=[]
     for i in range(k,l+1):
         new_lst.append(i**2)
-    print(new_lst
+    print(new_lst)
 
 k=int(input())
 l=int(input())
