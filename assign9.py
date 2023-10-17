@@ -24,7 +24,7 @@ c.display_result()
 # shopping cart
 
 class Cart():
-    def _init_ (self):
+    def __init__ (self):
         self.products = {}
         self.prices={}
     def display_products(self):
