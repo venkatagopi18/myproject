@@ -25,29 +25,30 @@ c.display_result()
 
 class Cart():
     def __init__ (self):
-        self.products = {}
+        self.items = {}
         self.prices={}
-    def display_products(self):
-        print(self.products)
+    def display_items(self):
+        print(self.items)
     def display_prices(self):
         print(self.prices)
-    def add_products_prices(self,product,quantity,price):
-        self.products[product]=quantity
-        self.prices[product]=price
-    def remove_products(self,product):
-        del self.products[product]
-        del self.prices[product]
+    def add_items_prices(self,item,quantity,price):
+        self.items[item]=quantity
+        self.prices[item]=price
+    def remove_items(self,item):
+        del self.items[item]
+        del self.prices[item]
     def get_total_price(self):
         self.total_price=0
-        for item,quantity in self.products.items():
+        for item,quantity in self.items.items():
             self.total_price+=quantity*self.prices[item]
         print(self.total_price)
 
 c=Cart()
-c.add_products_prices("shirt",2,1000)
-c.add_products_prices("shoes",1,5000)
-c.add_products_prices("pant",2,2000)
-c.remove_products("shoes")
-print(c.products)
+c.add_items_prices("shirt",2,500)
+c.add_items_prices("pant",1,1000)
+c.add_items_prices("shoes",2,2000)
+c.remove_items("shoes")
+print(c.items)
 print(c.prices)
 c.get_total_price()
+
