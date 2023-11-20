@@ -53,7 +53,7 @@ for i in range(a):
         print(i)
 a=int(input())
 for j in range(a):
-    if j%2==1:
+    if j%2!=0:
         print(j)
 
 # printing patterns
