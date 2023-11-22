@@ -22,6 +22,7 @@ else:
     print("consonant")
 
 replacing given character in space
+a=input()
 str=input()
 print(str.replace(" ",str))
 
