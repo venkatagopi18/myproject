@@ -25,9 +25,11 @@ print(k)
 
 # odd numbers in list
 a=[1,2,3,40,77,82,647,8]
+j=[]
 for i in a:
     if i%2 !=0:
-        print(i)
+        j.append(i)
+print(i)
 
 # deleting element in given list
 a=[1,2,3,40,77,82,2,647,8]
